@@ -1,0 +1,22 @@
+{
+    "name": "graywings/standard",
+    "description": "A PHPCS plugin that represents coding standards in Graywings",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "GraywingsStandard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Taira Terashima",
+            "email": "taira.terashima@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "squizlabs/php_codesniffer": "^3.12"
+    }
+}

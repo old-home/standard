@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="GraywingsStandard">
+    <description>Custom coding standard for checking function comments.</description>
+
+    <rule ref="./Sniffs/Commenting/FunctionCommentSniff.php"/>
+    <rule ref="./Sniffs/Commenting/ClassCommentSniff.php"/>
+</ruleset>
