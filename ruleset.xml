@@ -2,6 +2,6 @@
 <ruleset name="GraywingsStandard">
     <description>Custom coding standard for checking function comments.</description>
 
-    <rule ref="./Sniffs/Commenting/FunctionCommentSniff.php"/>
-    <rule ref="./Sniffs/Commenting/ClassCommentSniff.php"/>
+    <rule ref="./src/Sniffs/Commenting/FunctionCommentSniff.php"/>
+    <rule ref="./src/Sniffs/Commenting/ClassCommentSniff.php"/>
 </ruleset>
